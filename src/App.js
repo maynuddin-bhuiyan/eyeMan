@@ -1,23 +1,68 @@
-import logo from './logo.svg';
 import './App.css';
+import Authprovider from './Context/Authprovider/Authprovider';
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import Home from './Pages/Home/Home/Home';
+import SinglePage from './Pages/SinglePage/SinglePage';
+import TermsConditions from './Pages/TermsConditions/TermsConditions';
+import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
+import SupportCenter from './Pages/SupportCenter/SupportCenter';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import SinglePageDetails from './Pages/SinglePageDetail/SinglePageDetails/SinglePageDetails';
+import DetailsBuy from './Pages/DetailsBuy/DetailsBuy';
+import Registration from './Pages/Login/Registration/Registration';
+import Login from './Pages/Login/Login/Login';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Authprovider>
+
+<BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/home" element={<Home />} />
+    <Route path="/registration" element={<Registration />} />
+    <Route path="/login" element={<Login />} />
+    <Route path="/singlePage" element={<SinglePage />} />
+    <Route path="/termsConditions" element={<TermsConditions />} />
+    <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+    <Route path="/supportCenter" element={<SupportCenter />} />
+
+
+    <Route path="/detailsItam/:id" element={<PrivateRoute> <SinglePageDetails /> </PrivateRoute>} />
+    <Route path="/detailsBuy/:id" element={<PrivateRoute> <DetailsBuy /> </PrivateRoute>} />
+  
+
+
+            
+            
+
+            
+         
+
+           
+
+           
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+  </Routes>
+
+</BrowserRouter>
+</Authprovider>
+
     </div>
   );
 }

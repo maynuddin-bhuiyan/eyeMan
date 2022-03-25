@@ -1,0 +1,77 @@
+.SupportCenter {
+    padding: 0px 50px 100px 200px;
+    position: relative;
+
+}
+
+
+.SupportCenter .SupportIcon {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.SupportCenter h1 {
+    width: 700px !important;
+    line-height: 70px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+
+.Support h2 {
+
+    flex-grow: 1;
+    font-family: SuisseWorks, Georgia, Times, 'Times New Roman', serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-weight: bold;
+    font-size: 40px;
+    color: #4a4a4a;
+    margin-bottom: 50px;
+
+}
+
+.Support {
+    padding-top: 300px;
+    width: 900px;
+}
+
+
+.Questions {
+    margin: 50px 0px;
+}
+
+.Questions .answers {
+    color: #1c1d1f;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.Ansercomplete h2 {
+    color: #4a4a4a;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.Anser {
+    margin-bottom: 100px;
+    width: 900px;
+}
+
+
+.Ansercomplete {
+    margin-bottom: 30px;
+    color: #1c1d1f;
+}
+
+
+.helpful {
+    margin-top: 50px;
+
+}

@@ -1,0 +1,91 @@
+.Footer {
+    
+    background: url(../../../images/Footer/Footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 580px;
+    margin-top: 40px;
+
+
+}
+
+
+
+.Footer_Text {
+    width: 1420px !important;
+    margin-left: 100px !important;
+    padding-top: 250px!important;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+    position: relative;
+
+}
+
+.Text .text-alin img {
+    width: 90px;
+    position: absolute;
+    top: 220px;
+    left: 30px;
+}
+
+
+.Footer_Text .Text p {
+    width: 150px;
+    font-size: 20px;
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+.Link .UnorderLisrt .Itam{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.Link h2 {
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+
+.Contact h2{
+    padding-bottom: 30px;
+}
+
+
+
+
+.Contact-text {
+    border: 4px solid #13c5ce;
+    width: 120px;
+    margin: 0a;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+
+
+.Contact-text h6{
+    margin: 0px;
+}
+
+.Contact .Contact-img  img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+
+
+
+.Contact-img {
+    padding-top: 30px;
+}
+
+
+

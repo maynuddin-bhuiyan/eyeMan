@@ -1,0 +1,39 @@
+.Partners {
+    padding: 100px;
+
+}
+
+
+.Partners-img {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+
+}
+
+.Partners-img .image {
+    background: #f9f9f9;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: linear .3s;
+}
+
+
+.Partners-img .image:hover {
+    background: #001b30;
+    border-radius: 0px;
+}
+
+.Partners-img .image img {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    transition: linear .4s;
+}
+
+
+.Partners-img .image img:hover {
+    padding: 10px;
+}
